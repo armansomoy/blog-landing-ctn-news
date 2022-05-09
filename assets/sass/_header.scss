@@ -1,0 +1,14 @@
+header{
+    .header_top{
+        background-color: $black;
+        ul{
+            li{
+                display: inline-block;
+                color: $white;
+                font-size: 13px;
+                line-height: 22px;
+                padding: 0 10px;                
+            }
+        }
+    }
+}

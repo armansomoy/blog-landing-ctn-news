@@ -1,0 +1,56 @@
+/* Reset CSS */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  outline: none; }
+
+* {
+  scrollbar-width: thin; }
+
+::-webkit-scrollbar {
+  width: 5px; }
+
+html,
+body {
+  scroll-behavior: smooth;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400; }
+
+/* Change text & background color */
+a,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: inherit; }
+
+button,
+button:hover,
+button:focus,
+button:active {
+  outline: none; }
+
+img {
+  vertical-align: middle; }
+
+ul,
+ol {
+  list-style: none; }
+
+/* Footer Style */
+.footer .copyright {
+  font-size: 0.8rem; }
+  .footer .copyright__link:hover, .footer .copyright__link:focus {
+    text-decoration: underline #ddb180; }
+
+header .header_top {
+  background-color: #000000; }
+  header .header_top ul li {
+    display: inline-block;
+    color: white;
+    font-size: 13px;
+    line-height: 22px;
+    padding: 0 10px; }
+
+/*# sourceMappingURL=main.css.map */
